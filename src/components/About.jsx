@@ -9,15 +9,12 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Hello! I'm Shaswat Mishra, a passionate Web and AI Expert with a 
-              strong foundation in creating responsive, user-friendly websites 
-              and integrating cutting-edge AI solutions.
+            Hey there! I'm Shaswat, a passionate and curious developer who loves building meaningful digital experiences. Currently diving deep into full-stack development, I've worked on projects ranging from art-based e-commerce platforms to AI-powered tools and even lost & found systems.
+
             </p>
             <p>
-              With over 5 years of experience in the industry, I've worked on a 
-              variety of projects ranging from small business websites to complex 
-              enterprise applications. My expertise includes front-end development 
-              with React, back-end programming, and implementing machine learning models.
+            With a strong foundation in React, Python, and Flutter, I love solving real-world problems using code. Whether it's building user-friendly interfaces or automating complex workflows, I enjoy turning ideas into functional, aesthetic products.
+
             </p>
             <p>
               I'm constantly learning and exploring new technologies to stay ahead 
@@ -32,15 +29,15 @@ const About = () => {
             </div>
             <div className="info-item">
               <span className="info-title">Email:</span>
-              <span className="info-value">contact@shaswatmishra.com</span>
+              <span className="info-value">shaswat.mishra.7376@gmail.com</span>
             </div>
             <div className="info-item">
               <span className="info-title">Phone:</span>
-              <span className="info-value">+1 (123) 456-7890</span>
+              <span className="info-value">+91 7021895392</span>
             </div>
             <div className="info-item">
               <span className="info-title">Location:</span>
-              <span className="info-value">San Francisco, CA</span>
+              <span className="info-value">Navi Mumbai, Maharashtra</span>
             </div>
             <div className="info-item">
               <span className="info-title">Availability:</span>

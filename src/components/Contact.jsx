@@ -22,14 +22,12 @@ const Contact = () => {
     e.preventDefault();
     // Handle form submission logic here
     console.log('Form data submitted:', formData);
-    // Reset form after submission
     setFormData({
       name: '',
       email: '',
       subject: '',
       message: ''
     });
-    // Show success message or handle errors
     alert('Thank you for your message! I will get back to you soon.');
   };
 
@@ -47,28 +45,35 @@ const Contact = () => {
                   <span className="contact-icon">📧</span>
                   <div>
                     <h4>Email</h4>
-                    <p>contact@shaswatmishra.com</p>
+                    <p>shaswat.mishra.7376@gmail.com</p>
                   </div>
                 </div>
                 <div className="contact-item">
                   <span className="contact-icon">📱</span>
                   <div>
                     <h4>Phone</h4>
-                    <p>+1 (123) 456-7890</p>
+                    <p>+91 7021895392</p>
                   </div>
                 </div>
                 <div className="contact-item">
                   <span className="contact-icon">📍</span>
                   <div>
                     <h4>Location</h4>
-                    <p>San Francisco, CA</p>
+                    <p>Navi Mumbai, Maharashta</p>
                   </div>
                 </div>
               </div>
+              {/* <iframe 
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
               <div className="social-links">
-                <a href="#" className="social-link">LinkedIn</a>
-                <a href="#" className="social-link">GitHub</a>
-                <a href="#" className="social-link">Twitter</a>
+                {/* <iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583091352!2d72.8776559!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1647626905794!5m2!1sen!2sca"                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen={false}
+                  loading="lazy"
+                  title="My Location"
+                ></iframe> */}
               </div>
             </div>
           </div>

@@ -1,16 +1,16 @@
-
 import '../styles/Skills.css';
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML/CSS', percentage: 95 },
-    { name: 'JavaScript', percentage: 90 },
-    { name: 'React', percentage: 85 },
-    { name: 'Node.js', percentage: 80 },
-    { name: 'Python', percentage: 85 },
-    { name: 'AI/Machine Learning', percentage: 75 },
-    { name: 'UI/UX Design', percentage: 70 },
-    { name: 'Database Management', percentage: 80 }
+    'HTML/CSS',
+    'JavaScript',
+    'React',
+    'Node.js',
+    // 'Flutter',
+    'Python',
+    'AI/Machine Learning',
+    'DBMS',
+    'Java'
   ];
 
   return (
@@ -28,19 +28,11 @@ const Skills = () => {
               ensuring that I can provide the best solutions for any project I work on.
             </p>
           </div>
-          <div className="skills-bars">
+          <ul className="skills-list">
             {skills.map((skill, index) => (
-              <div className="skill-item" key={index}>
-                <div className="skill-info">
-                  <span className="skill-name">{skill.name}</span>
-                  <span className="skill-percentage">{skill.percentage}%</span>
-                </div>
-                <div className="skill-bar">
-                  <div className="skill-progress" style={{ width: `${skill.percentage}%` }}></div>
-                </div>
-              </div>
+              <li key={index} className="skill-name">{skill}</li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>

@@ -4,38 +4,38 @@ import '../styles/Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Senior Web Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2021 - Present',
-      description: 'Leading the development team in creating responsive web applications using React and Node.js. Implemented AI features for content recommendation and user behavior analysis.'
+      title: 'Web Developer',
+      company: 'ZeltaClimb Solutions',
+      period: 'Jan 2025 - Apr 2025',
+      description: 'During my internship, I developed scalable web solutions using React.js, improving load time by 25%, led lead generation efforts that increased qualified leads by 15%, and collaborated on integrating AI-powered workflows, reducing manual tasks by 30%.'
     },
     {
-      title: 'AI Specialist',
-      company: 'InnovateAI',
-      period: '2019 - 2021',
-      description: 'Developed machine learning models for natural language processing. Created a chatbot system that improved customer service efficiency by 40%.'
-    },
-    {
-      title: 'Full Stack Developer',
-      company: 'WebCraft Studio',
-      period: '2017 - 2019',
-      description: 'Built and maintained multiple client websites and web applications. Utilized React for front-end and Express for back-end services.'
+      title: 'Web Developer',
+      company: 'Datta Meghe College of Engineering',
+      period: 'Jan 2024 - present',
+      description: 'I managed and updated the official college website, implementing new features that optimized performance and enhanced security by 20%, while coordinating with faculty and students to deliver accurate content, reducing delays by 20%'
     }
   ];
 
   const education = [
     {
-      degree: 'Master of Science in Artificial Intelligence',
-      institution: 'Stanford University',
-      period: '2015 - 2017',
-      description: 'Specialized in machine learning and neural networks. Conducted research on natural language processing applications.'
+      degree: 'Bachelor of Engineering in Information Technology',
+      institution: 'Datta Meghe College of Engineering',
+      period: '2022 - 2026',
+      description: 'CGPA: 9.12 (Sem 1-5)'
     },
     {
-      degree: 'Bachelor of Technology in Computer Science',
-      institution: 'MIT',
-      period: '2011 - 2015',
-      description: 'Focused on web development, algorithms, and data structures. Graduated with honors.'
-    }
+      degree : 'HSC (Science - PCM + CS)',
+      institution: 'Yashwantrao College of Arts, Science and Commerce',
+      period: '2020 - 2022',
+      description: '75.5% (Math: 84%) '
+    },
+    {
+      degree : 'SSC',
+      institution: 'Modern School, Vashi ',
+      period: '2019 - 2020',
+      description: '82.4% (Math: 95%) '
+    },
   ];
 
   return (

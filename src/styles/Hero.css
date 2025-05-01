@@ -55,6 +55,8 @@
   border: 5px solid #1EAEDB;
 }
 
+
+
 @media screen and (max-width: 992px) {
   .hero-container {
     flex-direction: column;
