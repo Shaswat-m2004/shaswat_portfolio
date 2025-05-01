@@ -24,7 +24,7 @@ const Hero = () => {
              startDelay={100}
              cursorColor="#3F3D56"
              multiText={[
-               ' Trary to popular belief, Lorem Ipsum is not simply random text.    ',
+               ' Passionate full-stack developer integrating AI to build scalable, intelligent, and user-centric web applications',
              ]}
              multiTextDelay={500}
              typeSpeed={50}

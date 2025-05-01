@@ -8,15 +8,13 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Add background when scrolled
       if (window.scrollY > 50) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
 
-      // Update active section based on scroll position
-      const sections = ['home', 'about', 'skills', 'experience', 'contact'];
+      const sections = ['home', 'about', 'skills', 'projects', 'experience', 'contact'];
       
       for (const sectionId of sections) {
         const section = document.getElementById(sectionId);
@@ -77,6 +75,16 @@ const Navbar = () => {
           >
             Skills
           </a>
+          {/* <a 
+            href="#projects" 
+            className={activeSection === 'projects' ? 'active' : ''} 
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavClick('projects');
+            }}
+          >
+            Projects
+          </a> */}
           <a 
             href="#experience" 
             className={activeSection === 'experience' ? 'active' : ''} 
@@ -97,6 +105,7 @@ const Navbar = () => {
           >
             Contact
           </a>
+          
         </div>
       </div>
     </nav>
