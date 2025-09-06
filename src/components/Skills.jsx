@@ -5,27 +5,35 @@ const Skills = () => {
     'HTML/CSS',
     'JavaScript',
     'React',
-    'Node.js',
-    // 'Flutter',
+    'Node.js / Express.js',
     'Python',
-    'AI/Machine Learning',
-    'DBMS',
-    'Java'
+    'C / C++',
+    'Java',
+    'AI / Machine Learning',
+    'DApps / Blockchain',
   ];
 
   return (
     <section id="skills" className="skills section">
       <div className="container">
-        <h2 className="section-title">My <span className="accent-text">Skills</span></h2>
+        <h2 className="section-title">
+          My <span className="accent-text">Skills</span>
+        </h2>
         <div className="skills-content">
           <div className="skills-text">
             <p>
-              I've developed a diverse set of skills throughout my career, focusing on both 
-              front-end and back-end technologies, as well as AI and machine learning.
+              I have built expertise in <strong>web development</strong>, 
+              <strong> decentralized applications (DApps)</strong>, and 
+              <strong> artificial intelligence / machine learning</strong>. 
+              My technical journey spans both front-end and back-end 
+              development, along with cutting-edge technologies in blockchain 
+              and AI.
             </p>
             <p>
-              My approach involves continuous learning and adapting to new technologies, 
-              ensuring that I can provide the best solutions for any project I work on.
+              Beyond development, I also work as a <strong>Programming Faculty</strong>, 
+              teaching <strong>C, C++, Java, and Python</strong>. Sharing knowledge 
+              has not only sharpened my skills but also strengthened my passion 
+              for guiding others in their coding journey.
             </p>
           </div>
           <ul className="skills-list">

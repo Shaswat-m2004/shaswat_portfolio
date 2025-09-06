@@ -10,10 +10,10 @@ const Experience = () => {
       description: 'During my internship, I developed scalable web solutions using React.js, improving load time by 25%, led lead generation efforts that increased qualified leads by 15%, and collaborated on integrating AI-powered workflows, reducing manual tasks by 30%.'
     },
     {
-      title: 'Web Developer',
-      company: 'Datta Meghe College of Engineering',
-      period: 'Jan 2024 - present',
-      description: 'I managed and updated the official college website, implementing new features that optimized performance and enhanced security by 20%, while coordinating with faculty and students to deliver accurate content, reducing delays by 20%'
+      title: 'Programming Faculty',
+      company: 'Disha Computer Institute',
+      period: 'June 2025 - present',
+      description: 'Teaching C, C++, Java, and Python  Design and deliver structured, hands-on programming lessons, Managing classes at two branches – Thane and Kalwa – ensuring consistent quality of instruction  '
     }
   ];
 
@@ -22,19 +22,19 @@ const Experience = () => {
       degree: 'Bachelor of Engineering in Information Technology',
       institution: 'Datta Meghe College of Engineering',
       period: '2022 - 2026',
-      description: 'CGPA: 9.12 (Sem 1-5)'
+      description: 'CGPA: 9 (Sem 1-6)'
     },
     {
       degree : 'HSC (Science - PCM + CS)',
       institution: 'Yashwantrao College of Arts, Science and Commerce',
       period: '2020 - 2022',
-      description: '75.5% (Math: 84%) '
+      description: '75.5% (Mathematics: 84%) '
     },
     {
       degree : 'SSC',
       institution: 'Modern School, Vashi ',
       period: '2019 - 2020',
-      description: '82.4% (Math: 95%) '
+      description: '82.4% (Mathematics: 95%) '
     },
   ];
 

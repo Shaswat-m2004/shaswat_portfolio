@@ -9,18 +9,21 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-            Hey there! I'm Shaswat, a passionate and curious developer who loves building meaningful digital experiences. Currently diving deep into full-stack development, I've worked on projects ranging from art-based e-commerce platforms to AI-powered tools and even lost & found systems.
-
+            Hi, I’m Shaswat Mishra — a developer and educator passionate about building impactful digital solutions and sharing knowledge.
             </p>
             <p>
             With a strong foundation in React, Python, and Flutter, I love solving real-world problems using code. Whether it's building user-friendly interfaces or automating complex workflows, I enjoy turning ideas into functional, aesthetic products.
-
+            <br/>
+            <br/>
+            I have hands-on experience in Web Development, Decentralized Applications (DApps), and AI/ML, where I enjoy combining problem-solving skills with creativity to turn ideas into real-world applications.
+            <br/>
+            <br/>
+            I’ve completed a Web Development internship, which gave me practical exposure to modern tools and frameworks, and I’m currently working as a Programming Faculty, teaching C, C++, Java, and Python. Guiding students and breaking down complex concepts into simple, practical lessons has not only strengthened my own skills but also deepened my passion for technology.
+            <br/>
+            <br/>
+            I’m always eager to learn, explore emerging technologies, and collaborate on innovative projects that create real impact.
             </p>
-            <p>
-              I'm constantly learning and exploring new technologies to stay ahead 
-              in this ever-evolving field. When I'm not coding, you can find me 
-              hiking, reading tech blogs, or experimenting with new AI models.
-            </p>
+      
           </div>
           <div className="about-info">
             <div className="info-item">

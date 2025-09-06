@@ -9,10 +9,10 @@ const Hero = () => {
       <div className="container hero-container">
         <div className="hero-content">
           <h1>
-          <span className="accent-text">SHASWAT</span> MISHRA
+          SHASWAT<span className="accent-text"> MISHRA</span> 
             
           </h1>
-          <h2>WEB AND AI EXPERT</h2>
+          <h2>Experience in Web Development Block chain and AI/ML</h2>
           <p>
           <Typewriter
               textStyle={{
@@ -24,7 +24,7 @@ const Hero = () => {
              startDelay={100}
              cursorColor="#3F3D56"
              multiText={[
-               ' Passionate full-stack developer integrating AI to build scalable, intelligent, and user-centric web applications',
+               ' Passionate  developer integrating AI to build scalable, intelligent, and user-centric web app and Dapp',
              ]}
              multiTextDelay={500}
              typeSpeed={50}
